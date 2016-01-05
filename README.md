@@ -8,9 +8,10 @@ You will need your rsa key
 
 IP and port are:
 
-52.11.68.114 via port 2200
+52.11.68.114:2200
 
 the command line is:
+
 ssh -i ~/.ssh/udacity_key.rsa root@52.11.68.114 -p2200
 
 ## Access tp the app
