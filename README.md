@@ -16,9 +16,9 @@ ssh -i ~/.ssh/udacity_key.rsa root@52.11.68.114 -p2200
 
 ## Access to the app
 
-Just copy past in browser http://52.11.68.114/ or http://ec2-52-11-68-114.us-west-2.compute.amazonaws.com/
+Just copy paste in your browser http://52.11.68.114/ or http://ec2-52-11-68-114.us-west-2.compute.amazonaws.com/
 
-You also need a facebook account to login
+You will also need a facebook account to login
 
 
 ## Software installed
