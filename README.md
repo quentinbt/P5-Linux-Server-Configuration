@@ -1,19 +1,23 @@
 # P5: Linux Server Configuration
 
-This part show how to set our previous python app on a linux production server
+
 
 ## SSH access
+
+You will need your rsa key
+
+IP and port are:
 
 52.11.68.114 via port 2200
 
 the command line is:
 ssh -i ~/.ssh/udacity_key.rsa root@52.11.68.114 -p2200
 
-## Access to the app
+## Access tp the app
 
-Just copy past in browser http://52.11.68.114/
+Just copy past in browser http://52.11.68.114/ or http://ec2-52-11-68-114.us-west-2.compute.amazonaws.com/
 
-You also need a facebook account
+You also need a facebook account to login
 
 
 ## Software installed
@@ -41,8 +45,10 @@ You also need a facebook account
 - psycopg2
 - Glances
 - unattended-upgrades
+- fail2ban
+- sendmail
 
-## third-party resources/documentation used
+## third-party resources/documentations used
 
 http://askubuntu.com/questions/7477/how-can-i-add-a-new-user-as-sudoer-using-the-command-line
 http://askubuntu.com/questions/168280/how-do-i-grant-sudo-privileges-to-an-existing-user
