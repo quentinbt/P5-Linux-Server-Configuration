@@ -14,7 +14,7 @@ the command line is:
 
 ssh -i ~/.ssh/udacity_key.rsa root@52.11.68.114 -p2200
 
-## Access tp the app
+## Access to the app
 
 Just copy past in browser http://52.11.68.114/ or http://ec2-52-11-68-114.us-west-2.compute.amazonaws.com/
 
