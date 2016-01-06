@@ -12,7 +12,7 @@ IP and port are:
 
 the command line is:
 
-ssh -i ~/.ssh/udacity_key.rsa root@52.11.68.114 -p2200
+ssh -i ~/.ssh/udacity_key.rsa grader@52.11.68.114 -p2200
 
 ## Access to the app
 
